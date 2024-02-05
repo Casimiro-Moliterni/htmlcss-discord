@@ -65,18 +65,25 @@ header .conteiner .col-25:nth-child(3) {
     background-color: white;
     border-radius: 25px;
     border: 1px solid transparent;
-    padding: 15px;
+    padding: 10px 15px;
+    font-weight: 700;
 }
 .col-grow li:hover{
     text-decoration: underline;
     color: white;
 }
 
-header .btn:hover{
+header .btn:hover, main .btn-arrows:hover{
     cursor: pointer;
     color: #3161e0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.btn-title:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    cursor: pointer;
+}
+
 
 /* header - fine  */
 
@@ -108,7 +115,7 @@ header .btn:hover{
 
 }
 .item-60{
-    min-height: 500px;
+    
     width: 60%;
 
 }
@@ -143,19 +150,36 @@ body{
         color: white;
         text-align: center;   
         font-weight: 900; 
-        padding-top: 100px;
-    
+         font-size: 40px;
     }
 
-.section-a .text h1{
-       font-size: 40px;
-}
+   .section-a h1{
+    padding-top: 70px;
+    }
+
+
+  section img {
+    vertical-align: middle;
+  }
 
 
  .section-a .text p{
     font-size: 20px;
     padding-top: 50px;
+    padding-bottom: 20px;
+ }
+
+ .item-40{
+    vertical-align: middle;
+ }
+
+.text h2{
+    color: #000000;
+    font-size: 40px;
+    font-weight: 900;
 }
+
+
 
 
 
@@ -172,11 +196,24 @@ body{
     min-height: 540px;
 }
 
+.btn.btn-title{
+    padding: 20px 30px 15px 30px;
+    margin-right: 10px;
+    font-size: 20px;
+    line-height: 15px;
+}
 
+ .btn-title.btn-arrows::before{
+    content:'\1F847'; 
+   font-size: 20px;
+   font-weight: 900;
+   padding-right: 10px;
+}
+/* seconda section  */
 
-
-
-
+.section-b{
+   
+}
 
 
 
@@ -184,14 +221,12 @@ body{
 
 .bg-color{
     width: 100%;
-    background-color: white;
+    
  }
  .bg-grey{
     background-color:#d3d3d3 ;
  }
- .item-blu{
-    background-color: #1e90ff;
-}
+
 .item-salmone{
     background-color: #ffc0cb;
 }
@@ -210,6 +245,12 @@ body{
 .white{
     border: 2px dashed #ffffff;
 }
+
+.btn-black{
+background-color: #23272a;
+color: white;
+}
+
 /* fine main  */
 /* inizio footer  */
  .col-30 .de-bug{
