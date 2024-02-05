@@ -21,24 +21,31 @@
 
 /* header  */
 header{
-    background-color: #add8e6;
+    background-color: #3161e0;
     padding:16px 0;
+    font-size: 20px;
 }
 header .conteiner{
     display: flex;
     
 }
-header .conteiner .col {
-    background-color: #daa520;
-}
+
 
 .col{
     padding:15px 0 10px 0;
     display: flex;
 }
 
-.col.col-50{
-    justify-content: center;
+.col-grow > ul {
+
+ display: flex;
+ list-style: none;
+ align-items: center;
+}
+.col-grow li, .col-grow a {
+    text-decoration: none;
+    padding-left: 35px;
+    color: #ffffff;
 }
 
 header .conteiner .col-25:first-child {
@@ -47,7 +54,30 @@ header .conteiner .col-25:first-child {
 header .conteiner .col-25:nth-child(3) {
   justify-content: flex-end;
   padding-right: 10px;
+  align-items: center;
 }
+
+.logo{
+    height: 50px;
+    cursor: pointer;
+}
+.btn{
+    background-color: white;
+    border-radius: 25px;
+    border: 1px solid transparent;
+    padding: 15px;
+}
+.col-grow li:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+header .btn:hover{
+    cursor: pointer;
+    color: #3161e0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
 /* header - fine  */
 
 /* inizio main  */
@@ -57,7 +87,6 @@ header .conteiner .col-25:nth-child(3) {
 /* item  */
 .box{
     width: 100%;
-    min-height: 580px;
 }
 
 .item{
@@ -96,6 +125,11 @@ header .conteiner .col-25:nth-child(3) {
 .col-30{
     width: 30%;
 }
+
+.col-grow{
+    flex-grow: 1;
+    justify-content: center;
+}
 .col-50{
     width: 50%;
 }
@@ -104,11 +138,33 @@ header .conteiner .col-25:nth-child(3) {
     border: 2px dashed #000000;
 }
 
-/* color  */
+/* tipografia  */
+body{
+    font-family: 'Cabin', sans-serif;
+   
+}
+/* main  */
+/* prima section  */
 .section-a{
     
-    background-color: #00008b;
+    background-image: url('./img/jumbo.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover auto;
+    min-height: 540px;
 }
+
+
+
+
+
+
+
+
+
+/* color  */
+
 .bg-color{
     width: 100%;
     background-color: white;
@@ -167,7 +223,3 @@ footer>.box-footer{
     background-color: #ffb6c1;
 }
 
-/* tipografy  */
-*{
-    font-size: 20px;
-}
