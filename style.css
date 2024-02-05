@@ -96,12 +96,7 @@ header .btn:hover{
 .section-a > .box{
     justify-content: center;
 }
-.item-rosa{
-    width: 900px;
-    min-height:400px ;
-    background-color: #ee82ee;
-    justify-content: center;  
-}
+
 /* secona section  */
 .border-section{
     border-top: 1px solid #add8e6;
@@ -143,6 +138,28 @@ body{
     font-family: 'Cabin', sans-serif;
    
 }
+
+.text {
+        color: white;
+        text-align: center;   
+        font-weight: 900; 
+        padding-top: 100px;
+    
+    }
+
+.section-a .text h1{
+       font-size: 40px;
+}
+
+
+ .section-a .text p{
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+
+
+
 /* main  */
 /* prima section  */
 .section-a{
@@ -151,7 +168,7 @@ body{
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover auto;
+    background-size: cover ;
     min-height: 540px;
 }
 
