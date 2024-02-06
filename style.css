@@ -240,6 +240,17 @@ max-width: 780px;
     padding-top: 80px;
 }
 
+.first button.btn-arrows{
+    background-color: #8ea1e1;
+    color: white;
+}
+
+.flow{
+    padding: 5px;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-image: url('./img/stars.svg');
+}
 
 
 
@@ -308,3 +319,7 @@ footer>.box-footer{
     background-color: #ffb6c1;
 }
 
+ footer .col-25{
+    text-align: center;
+    list-style: none;
+ }
