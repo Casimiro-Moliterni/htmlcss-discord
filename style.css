@@ -63,10 +63,11 @@ header .conteiner .col-25:nth-child(3) {
 }
 .btn{
     background-color: white;
-    border-radius: 25px;
+    border-radius: 30px;
     border: 1px solid transparent;
     padding: 10px 15px;
     font-weight: 700;
+    border: none;
 }
 .col-grow li:hover{
     text-decoration: underline;
@@ -94,11 +95,12 @@ header .btn:hover, main .btn-arrows:hover{
 /* item  */
 .box{
     width: 100%;
+  
 }
 
 .item{
     width: 100%;
-    min-height: 900px;
+    
 }
 .section-a > .box{
     justify-content: center;
@@ -110,8 +112,9 @@ header .btn:hover, main .btn-arrows:hover{
 }
 
 .item-40{
-    min-height: 500px;
+
     width: 40%;
+ 
 
 }
 .item-60{
@@ -119,6 +122,12 @@ header .btn:hover, main .btn-arrows:hover{
     width: 60%;
 
 }
+
+img {
+    max-width:100%;
+}
+
+
 /* fine item  */
 /* col  */
 .col-25{
@@ -146,41 +155,47 @@ body{
    
 }
 
+header,.section-a{
+    color: white;
+}
+
+
 .text {
-        color: white;
-        text-align: center;   
         font-weight: 900; 
          font-size: 40px;
     }
 
    .section-a h1{
-    padding-top: 70px;
+    padding-top: 50px;
     }
-
-
-  section img {
-    vertical-align: middle;
-  }
 
 
  .section-a .text p{
     font-size: 20px;
     padding-top: 50px;
     padding-bottom: 20px;
+    line-height: 1.5;
  }
 
- .item-40{
-    vertical-align: middle;
- }
+
 
 .text h2{
     color: #000000;
     font-size: 40px;
     font-weight: 900;
+    font-family: inherit;
+    margin-bottom: 22px;
 }
 
+ .section-hero .text p , .section-b .text p{
+    color: #000;
+    font-size: 20px;
+    font-family: inherit;
+ }
 
-
+ .text-col{
+    padding-left: 40px;
+ }
 
 
 
@@ -190,14 +205,14 @@ body{
     
     background-image: url('./img/jumbo.png');
     width: 100%;
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
     min-height: 540px;
+    text-align: center;
 }
 
 .btn.btn-title{
-    padding: 20px 30px 15px 30px;
+    padding: 20px  30px;
     margin-right: 10px;
     font-size: 20px;
     line-height: 15px;
@@ -211,9 +226,21 @@ body{
 }
 /* seconda section  */
 
-.section-b{
-   
+.section-hero .box{
+
+max-width: 780px;
 }
+   
+.section-b{
+    margin-top: 100px;
+}
+
+.first{
+    text-align: center;
+    padding-top: 80px;
+}
+
+
 
 
 
