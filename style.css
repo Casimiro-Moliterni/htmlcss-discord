@@ -41,10 +41,10 @@ header .conteiner{
  display: flex;
  list-style: none;
  align-items: center;
+ gap: 30px;
 }
 .col-grow li, .col-grow a {
     text-decoration: none;
-    padding-left: 35px;
     color: #ffffff;
 }
 
@@ -411,4 +411,10 @@ footer .btn{
 
     background-color: #8ea1e1;
     cursor: pointer;
+}
+
+footer a:hover,
+header a:hover{
+text-decoration: underline;
+color: inherit;
 }
